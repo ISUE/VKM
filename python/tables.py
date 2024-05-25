@@ -89,7 +89,7 @@ def get_device_dataset_path(device_type: DeviceType):
     if device_type == DeviceType.GDS:
         return "../datasets/gds/training"
     # FIXME Vive pos?
-    if device_type == DeviceType.VIVE:
-        return "../datasets/vive/training",
+    if device_type == DeviceType.VIVE_POSITION:
+        return "../datasets/vive/training"
     if device_type == DeviceType.MOUSE:
         return "../datasets/mouse/training"
